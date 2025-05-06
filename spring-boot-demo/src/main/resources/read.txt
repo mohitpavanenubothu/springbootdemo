@@ -1,0 +1,18 @@
+1. SpringBoot Application start with main method.
+    @SpringBootApplication = @SpringBootConfiguration + @EnableAutoConfiguration + @ComponentScan
+
+2. In application yml file we can configure all required configuration data. example port, appName and Datasource etc.
+
+3. StereoType Annotations :  @Controller, @Service and @Repository.
+
+4. Http Methods:: @PostMapping, @GetMapping, @PutMapping, @PatchMapping and @DeleteMapping.
+
+        @PathVariable and @RequestParam
+
+
+
+   datasource:
+     url: jdbc:h2:mem:testdb
+     driver-class-name: org.h2.Driver
+     username: sa
+     password: password
